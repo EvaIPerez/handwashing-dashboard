@@ -76,7 +76,7 @@ st.plotly_chart(fig, use_container_width=True)
 # -----------------------------
 # BAR CHART
 # -----------------------------
-st.markdown("### 🏥 Clinic 1 operated by physicians and students had consistently higher mortality by Clinic 2 with midwives")
+st.markdown("### 🏥 Clinic 1 operated by physicians and medical students had consistently higher mortality than Clinic 2 with midwives")
 fig2 = px.bar(
     filtered_df,
     x="Year",
