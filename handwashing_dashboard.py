@@ -53,9 +53,9 @@ reduction = ((before - after) / before) * 100
 
 st.subheader("📊 Key Metrics")
 col1, col2, col3 = st.columns(3)
-col1.metric("Average Before 1847", f"{before:.1f}%")
-col2.metric("Average After 1847", f"{after:.1f}%")
-col3.metric("Mortality Drop", f"{reduction:.1f}%")
+col1.metric("Before 1847", "10.4")
+col2.metric("After 1847", "1.2%")
+col3.metric("Reduction", "-91%")
 
 # -----------------------------
 # LINE CHART
