@@ -22,7 +22,7 @@ def load_data():
     return df
 
 df = load_data()
-st.write("### 🧾 Raw Data Preview", df.head())
+#st.write("### 🧾 Raw Data Preview", df.head())
 
 # -----------------------------
 # CLEAN / FORMAT DATA
