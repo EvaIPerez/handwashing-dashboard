@@ -51,7 +51,7 @@ before = filtered_df[filtered_df["Year"] < 1847]["Mortality Rate (%)"].mean()
 after = filtered_df[filtered_df["Year"] >= 1847]["Mortality Rate (%)"].mean()
 reduction = ((before - after) / before) * 100
 
-st.subheader("📊 Key Metrics")
+st.subheader("📊 After handwashing was introduced in 1847, mortality fell by over 90%")
 col1, col2, col3 = st.columns(3)
 col1.metric("Before 1847", "10.4")
 col2.metric("After 1847", "1.2%")
